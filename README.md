@@ -5,17 +5,21 @@
  
  
  ### Prerequisites
- * React
- * Visual Studio Code
- * Adobe XD
- * Jira
+ * Node.js 14.15.3
  
  
-### Install
+### Run
 * git clone https://github.com/BevAntwi98/weather-app
 * cd weather-app
-* npx-create-react-weather-app
-* npm install & npm start
+* npm i
+
+### Start the dev server
+* npm start
+
+### Tech Stack
+* React.js
+* JavaScript (ES6)
+* Jira
 
 ### Authors
 * Beverly Antwi-Agyei - [BevAntwi98](https://github.com/BevAntwi98)
