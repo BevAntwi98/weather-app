@@ -12,6 +12,7 @@
 * git clone https://github.com/BevAntwi98/weather-app
 * cd weather-app
 * npm i
+* npm install -g yarn
 
 ### Start the dev server
 * npm start
