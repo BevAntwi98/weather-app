@@ -19,12 +19,19 @@ header {
   opacity: 0%;
 } 
 
+.app.cloud{
+  background-image: url("./Images/cloudy.jpeg");
+}
 .app.snow {
-  background-image: url("./Images/snow.jpg");
+  background-image: url("./Images/snowsnow.jpeg");
 }
 
-.app.warm {
-  background-image: url("./Images/warm.jpg.jpg");
+.app.sunny {
+  background-image: url("./Images/sunny.jpg");
+}
+
+.app.rain{
+  background-image: url("./Images/rainy.jpg");
 }
 
 .app {
@@ -100,19 +107,19 @@ main {
 }
 
 .location {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .weather {
-  font-size: 30px;
+  font-size: 60px;
 }
 .description {
-  font-size: 25px;
+  font-size: 40px;
   text-transform: capitalize;
 }
 
 .temp {
-  font-size: 50px;
+  font-size: 150px;
 }
 
 .date {
@@ -124,14 +131,14 @@ main {
   border: 2px solid #fff;
   width: 20%;
   padding: 20px 0;
-  line-height: 5px;
+  line-height: 50px;
   background-color: rgb(226, 80, 43);
-  opacity: 70%;
+  opacity: 80%;
   height: fit-content;
   float: right;
-  margin-top: -240px;
-  margin-right: 70px;
-  margin-bottom: 10px;
+  margin-top: -440px;
+  margin-right: 150px;
+  margin-bottom: 20px;
 }
 
 .pressure,
@@ -139,7 +146,7 @@ main {
 .humidity,
 .feels-like {
   padding: 20px;
-  font-size: 20px;
+  font-size: 30px;
   color: #fff;
 }
 

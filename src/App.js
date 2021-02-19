@@ -24,12 +24,12 @@ function App() {
     }
   };
   const error = () => {
-    return function alertMessage() {
-      <div className="form-alert" role="alert">
-        alert("Please enter a city!!");
-      </div>;
-    };
-  };
+    return (
+        <div className="form-alert" role="alert">
+            Please Enter City !
+        </div>
+    );
+};
 
   const dateBuild = (D) => {
 
@@ -53,12 +53,14 @@ function App() {
       <div
         className={
           typeof weather.main != "undefined"
-            ? weather.main.temp > 16
-              ? "app warm"
-              : "app" && (weather.main.temp < 5 ? "app snow" : "app")
-            : "app"
-        }
+            ? weather.weather[0].main === "Clouds"  ? "app cloud" : "app" &&
+            weather.weather[0].main === "Clear" ? "app sunny": "app" &&
+            weather.weather[0].main === "Snow" ? "app snow" : "app" &&
+            weather.weather[0].main === "Rain" ? "app rain" : "app"
+
+      : "app" }
       >
+
         <main>
           <div className="search-box">
             <div>
@@ -75,6 +77,7 @@ function App() {
             </div>
           </div>
 
+
           {/* <div className= "button"><NextButton/></div> */}
 
           {typeof weather.main != "undefined" ? (
@@ -84,6 +87,7 @@ function App() {
                   {weather.name}, {weather.sys.country}
                 </div>
                 <div className="date">{dateBuild(new Date())}</div>
+                <div className = "icon">{weather.weather[0].icon}</div>
                 <div className="temp"> {Math.round(weather.main.temp)}°c</div>
                 <div className="description">
                   {weather.weather[0].description}
@@ -111,7 +115,9 @@ function App() {
           <h4>Created by Jamell, Bev , Meltem, Haze and Kenneth</h4>
         </footer>
       </div>
-    </div>
+      </div>
+    
   );
 }
 export default App;
+
