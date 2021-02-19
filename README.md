@@ -14,6 +14,7 @@
 ### Install
 * git clone https://github.com/BevAntwi98/weather-app
 * cd weather-app
+* npx-create-react-weather-app
 * npm install & npm start
 
 ### Authors
