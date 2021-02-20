@@ -30,7 +30,7 @@
 * Kenneth Berry - [Dott-alt](https://github.com/Dott-alt)
  
 ### Acknowledgments
-* Thank you to Hero for setting the brief , the group for all their hard work and of course Sam Maclean ([MacleanS](https://github.com/MacleanS)) for all his wonderful advice and helping us with our code!
+* Thank you to Hero for setting the brief, the group for all their hard work and of course Sam Maclean ([MacleanS](https://github.com/MacleanS)) for all his wonderful advice and helping us with our code!
 
 
 
