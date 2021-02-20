@@ -1,6 +1,6 @@
 ## Weather App by Team Switch
 
- Welcome to our Weather App! A simple React app using OpenWeatherApi to call on on the weather when you enter a city!
+ Welcome to our Weather App! A simple React app using OpenWeatherApi to call on the weather when you enter a city!
 
  
  
